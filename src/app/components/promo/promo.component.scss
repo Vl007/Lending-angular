@@ -1,0 +1,374 @@
+.promo-background {
+  background: #FAF9F9;
+  height: 768px;
+  display: flex;
+  position: relative;
+}
+
+.promo-img-one {
+  background: url("/assets/img/promo-yaht.jpg") no-repeat;
+  height: 494px;
+  width: 100%;
+  margin-top: 56px;
+  margin-left: 120px;
+}
+
+.promo-img-two {
+  background: url("/assets/img/promo-tractor.jpg") no-repeat;
+  height: 473px;
+  width: 100%;
+  margin-top: 245px;
+  margin-left: 93px;
+}
+
+.promo-block {
+  background: #FFFFFF;
+  width: 598px;
+  height: 403px;
+  position: absolute;
+  top: 180px;
+  left: 413px;
+  display: flex;
+  flex-direction: column;
+}
+
+.promo-h3 {
+  font-family: MuseoSansCyrl-100;
+  font-size: 43px;
+  line-height: 30px;
+  text-align: center;
+  color: #151515;
+  padding-top: 72px;
+}
+
+.promo-p {
+  font-family: MuseoSansCyrl-300;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #151515;
+  padding: 16px 133px;
+}
+
+.promo-block-back {
+  background: #151515;
+  border-radius: 50%;
+  width: 103px;
+  height: 103px;
+  position: absolute;
+  top: 128px;
+  right: 395px;
+}
+
+.promo-icon {
+  font-family: MuseoSansCyrl-100;
+  font-size: 60px;
+  line-height: 170%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  font-family: MuseoSansCyrl-100;
+  font-size: 21px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: black;
+}
+
+.promoActive {
+  font-family: MuseoSansCyrl-300;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #9791A1;
+  //padding: 15px 62px 16px;
+}
+
+@media screen and (min-width:1920px) {
+    .promo-background {
+      background: #FAF9F9;
+      height: 768px;
+      display: flex;
+      position: relative;
+    }
+
+
+    .promo-img-one {
+      background: url("/assets/img/promo-yaht.jpg") no-repeat;
+      height: 494px;
+      width: 100%;
+      margin-top: 56px;
+      margin-left: 320px;
+    }
+
+    .promo-img-two {
+      background: url("/assets/img/promo-tractor.jpg") no-repeat;
+      height: 473px;
+      width: 100%;
+      margin-top: 245px;
+      //margin-left: 93px;
+      margin-right: 300px;
+    }
+
+    .promo-block {
+      background: #FFFFFF;
+      width: 598px;
+      height: 403px;
+      position: absolute;
+      top: 180px;
+      left: 613px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .promo-h3 {
+      font-family: MuseoSansCyrl-100;
+      font-size: 43px;
+      line-height: 30px;
+      text-align: center;
+      color: #151515;
+      padding-top: 72px;
+    }
+
+    .promo-p {
+      font-family: MuseoSansCyrl-300;
+      font-weight: 300;
+      font-size: 24px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #151515;
+      padding: 16px 133px;
+    }
+
+    .promo-block-back {
+      background: #151515;
+      border-radius: 50%;
+      width: 103px;
+      height: 103px;
+      position: absolute;
+      top: 128px;
+      right: 645px;
+    }
+
+    .promo-icon {
+      font-family: MuseoSansCyrl-100;
+      font-size: 60px;
+      line-height: 170%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    button {
+      border: none;
+      outline: none;
+      background: none;
+      cursor: pointer;
+      font-family: MuseoSansCyrl-100;
+      font-size: 21px;
+      line-height: 30px;
+      letter-spacing: 0.01em;
+      color: black;
+    }
+
+    .promoActive {
+      font-family: MuseoSansCyrl-300;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 30px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #9791A1;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width: 374px) {
+  .promo-background {
+    width: 100%;
+    height: 100%;
+  }
+
+  .promo-p.promoActive {
+    font-size: 15px;
+    line-height: 1.93rem;
+  }
+
+  .promo-img-one{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .promo-img-two {
+    display: none;
+  }
+
+  .promo-block-back{
+    display: none;
+  }
+
+  .promo-block {
+    top: 108px;
+    height: 344px;
+    left: 13px;
+    width: 294px;
+  }
+
+  .promo-h3{
+    font-size: 28px;
+    padding-top: 56px;
+  }
+
+  .promo-p{
+    font-size: 17px;
+    padding: 16px 9px;
+  }
+
+  .promoActive{
+    //padding: 15px 10px;
+  }
+}
+
+@media screen and (min-width:375px) and (max-width: 413px) {
+  .promo-background {
+    width: 100%;
+    height: 100%;
+  }
+
+  .promo-img-one{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .promo-img-two {
+    display: none;
+  }
+
+  .promo-block-back{
+    display: none;
+  }
+
+  .promo-block {
+    top: 108px;
+    left: 15px;
+    width: 343px;
+    height: 344px;
+  }
+
+  .promo-h3{
+    font-size: 36px;
+  }
+
+  .promo-p{
+    font-size: 18px;
+    padding: 16px 47px;
+  }
+
+  .promoActive{
+    //padding: 15px 10px;
+  }
+
+  .promo-p.promoActive {
+    font-size: 16px;
+    line-height: 1.6rem;
+  }
+}
+
+
+@media screen and (min-width:414px) and (max-width: 767px) {
+  .promo-background {
+    width: 100%;
+    height: 100%;
+  }
+
+  .promo-img-one{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+
+  .promo-img-two {
+    display: none;
+  }
+
+  .promo-block-back{
+    display: none;
+  }
+
+  .promo-block {
+    top: 108px;
+    left: 33px;
+    width: 343px;
+    height: 344px;
+  }
+
+  .promo-h3{
+    font-size: 36px;
+  }
+
+  .promo-p{
+    font-size: 18px;
+    padding: 16px 47px;
+  }
+
+  .promoActive{
+    //padding: 15px 10px;
+  }
+
+  .promo-p.promoActive {
+    font-size: 17px;
+    line-height: 1.6rem;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+  .promo-background {
+    width: 100%;
+    height: 100%;
+  }
+
+  .promo-img-one{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+  }
+
+  .promo-img-two {
+    display: none;
+  }
+
+  .promo-block-back{
+    display: none;
+  }
+
+  .promo-block {
+    top: 108px;
+    left: 168px;
+    width: 432px;
+    height: 344px;
+  }
+
+  .promo-h3{
+    font-size: 36px;
+  }
+
+  .promo-p{
+    font-size: 18px;
+    padding: 16px 47px;
+  }
+
+  .promoActive{
+    //padding: 15px 10px;
+  }
+}
+

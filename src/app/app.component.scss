@@ -1,0 +1,256 @@
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+
+.main {
+  width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+
+.mobile-button {
+  background: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  padding-bottom: 3px;
+  display: none;
+  margin-left: 95%;
+  z-index: 10;
+  position: fixed;
+  margin-top: 57%;
+  //opacity: 0;
+  //visibility: hidden;
+}
+
+.scroll-panel {
+  position: fixed;
+  margin-left: 45px;
+  margin-top: 100px;
+  z-index: 100;
+  //display: none;
+}
+
+.upNumber {
+  padding-bottom: 22px;
+  margin-left: -0.37rem;
+  font-family: MuseoSansCyrl-300;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.downNumber {
+  padding-top: 22px;
+  margin-left: -0.37rem;
+  font-family: MuseoSansCyrl-300;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-left: -1.3rem;
+  margin-top: -2rem;
+}
+
+.line {
+  width: 1px;
+  height: 200px;
+  background: #C4C4C4;
+  position: relative;
+
+  .black-line {
+    background-color: black;
+    width: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .black-line2 {
+    background-color: black;
+    width: 2px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.scrollUp {
+  background: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin-bottom: 16px;
+  padding-bottom: 3px;
+}
+
+.scrollDown {
+  background: #FFFFFF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-top: 2px;
+  border: 1px solid black;
+}
+
+.pageName {
+  padding-top: 40px;
+  padding-bottom: 210px;
+  transform: rotate(-90deg);
+  font-family: MuseoSansCyrl-300;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  padding-left: 100px;
+}
+
+@media  screen and (min-width: 1367px) and (max-width: 5000px) {
+  .mobile-button {
+    background: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    padding-bottom: 3px;
+    display: none;
+    z-index: 10;
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1420px){
+  .scroll-panel {
+    position: fixed;
+    margin-left: 23px;
+    //margin-top: 120px;
+    z-index: 100;
+  }
+}
+
+@media screen and (min-width: 1421px) and (max-width: 1500px){
+  .scroll-panel {
+    position: fixed;
+    margin-left: 40px;
+    //margin-top: 120px;
+    z-index: 100;
+  }
+}
+
+@media screen and (min-width: 1501px) and (max-width: 1600px){
+  .scroll-panel {
+    position: fixed;
+    margin-left: 70px;
+    //margin-top: 120px;
+    z-index: 100;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1700px){
+  .scroll-panel {
+    position: fixed;
+    margin-left: 110px;
+    //margin-top: 120px;
+    z-index: 100;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1700px){
+  .scroll-panel {
+    position: fixed;
+    margin-left: 130px;
+    //margin-top: 120px;
+    z-index: 100;
+  }
+}
+
+@media screen and (min-width: 1701px) and (max-width: 1800px){
+  .scroll-panel {
+    position: fixed;
+    margin-left: 150px;
+    //margin-top: 120px;
+    z-index: 100;
+  }
+}
+
+@media screen and (min-width: 1801px) and (max-width: 1920px){
+  .scroll-panel {
+    position: fixed;
+    margin-left: 150px;
+    //margin-top: 120px;
+    z-index: 100;
+  }
+}
+
+@media screen and (min-width: 1920px){
+  .scroll-panel {
+    position: fixed;
+    margin-left: 150px;
+    //margin-top: 120px;
+    z-index: 100;
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 1366px){
+  .scroll-panel {
+    display: none;
+  }
+  .mobile-button {
+    background: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    padding-bottom: 3px;
+    margin-left: 82%;
+    z-index: 10;
+    position: fixed;
+    margin-top: 160%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 414px){
+  .mobile-button {
+    background: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    padding-bottom: 3px;
+    margin-left: 87%;
+    z-index: 10;
+    position: fixed;
+    margin-top: 160%;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1360px){
+  .mobile-button {
+    background: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    padding-bottom: 3px;
+    margin-left: 91%;
+    z-index: 10;
+    position: fixed;
+    margin-top: 124%;
+  }
+}
+
+

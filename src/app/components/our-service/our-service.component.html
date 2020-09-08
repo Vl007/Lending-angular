@@ -1,0 +1,11 @@
+<!--<div class="service-our" id="ourService">-->
+<!--  <h2 class="service-h2">Наши услуги</h2>-->
+<!--  <div class="service-block">-->
+  <div [ngClass]="boxClass">
+    <div class="service-sh">
+    <p class="service-p" [ngClass]="{serviceActive: visibility}">{{serviceText}}</p>
+    <button class="service-btn" (click) = "showService()">{{serviceButtonText}}</button>
+    </div>
+  </div>
+<!--  </div>-->
+<!--</div>-->

@@ -1,0 +1,150 @@
+.area-work {
+  background: #FAF9F9;
+  display: flex;
+  align-items: baseline;
+  padding-left: 17%;
+}
+
+.area-work-left {
+  margin-right: 12%;
+  width: 32%;
+}
+
+.area-work-h2 {
+  font-family: MuseoSansCyrl-100;
+  font-size: 54px;
+  line-height: 130%;
+  color: #151515;
+}
+
+.area-work-left-p {
+  font-family: MuseoSansCyrl-300;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 140%;
+  color: #151515;
+  margin-bottom: 16px;
+  width: 571px;
+}
+
+.area-work-right {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  margin-right: 140px;
+  width: 25%;
+}
+
+.area-work-h3 {
+  font-family: MuseoSansCyrl-500;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 140%;
+  color: #151515;
+  margin-bottom: 4px;
+}
+
+.area-work-p {
+  font-family: MuseoSansCyrl-300;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 150%;
+  color: #151515;
+  margin-bottom: 16px;
+  width: 578px;
+}
+
+.color-p {
+  color: #9791A2;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width:320px) and (max-width: 374px) {
+  .area-work {
+    flex-direction: column;
+    margin-top: 0;
+    padding-left: 16px;
+  }
+
+  .area-work-left {
+    margin: 40px 0 0 0;
+  }
+
+  .area-work-right {
+    padding-bottom: 40px;
+    padding-top: 0;
+    margin-right: 0;
+  }
+
+  .area-work-p,
+  .color-p {
+    font-size: 21px;
+    width: 297px;
+  }
+
+  .area-work-h3:nth-child(n+4) {
+    width: 282px;
+  }
+
+  .area-work-h2 {
+    font-size: 30px;
+  }
+
+  .area-work-left-p {
+    font-size: 16px;
+    width: 304px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .area-work {
+    flex-direction: column;
+    margin-top: 0;
+    padding-left: 16px;
+  }
+
+  .area-work-left {
+    margin: 40px 0 0 0;
+  }
+
+  .area-work-right {
+    padding-bottom: 40px;
+    padding-top: 0;
+    margin-right: 0;
+  }
+
+  .area-work-p,
+  .color-p {
+    font-size: 21px;
+    width: 343px;
+  }
+
+  .area-work-h3:nth-child(n+4) {
+    width: 282px;
+  }
+
+  .area-work-h2 {
+    font-size: 36px;
+  }
+
+  .area-work-left-p {
+    font-size: 18px;
+    width: 321px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+  .area-work{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .area-work-right{
+    padding-top: 59px;
+    padding-bottom: 120px;
+    margin-left: 31px;
+  }
+
+  .area-work-left {
+    margin-left: 31px;
+  }
+}

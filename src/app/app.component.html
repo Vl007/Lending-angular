@@ -1,0 +1,94 @@
+<div class="main" (scroll)=scrollMain($event)>
+
+  <div>
+  <button class="mobile-button" #mobileButton (click)="scrollToHome()"><svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 6.66669L6.66667 1.33335L1.33333 6.66669" stroke="#373140" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg></button>
+  </div>
+
+  <div class="scroll-panel">
+    <div class="upNumber">{{arrNum}}</div>
+    <div class="line" #line>
+      <div class="black-line2">
+      </div>
+      <div class="black-line" #blackLine>
+      </div>
+    </div>
+      <div class="downNumber">05</div>
+    <div class="pageName" #pageName>{{arrName}}</div>
+    <div class="buttons">
+      <button class="scrollUp" (click)="scrollUp2()"><svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 6.66669L6.66667 1.33335L1.33333 6.66669" stroke="#373140" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      </button>
+      <button class="scrollDown" (click)="scrollDown2()"><svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M1 1.33331L6.33333 6.66665L11.6667 1.33331" stroke="#373140" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    </div>
+  </div>
+
+<div class="header-background scroll-item">
+
+  <side-bar></side-bar>
+
+  <header class="header"></header>
+
+</div>
+
+<area-of-work class="area-of-work scroll-item"></area-of-work>
+
+<div class="service-our" id="ourService">
+  <h2 class="service-h2">Наши услуги</h2>
+  <div class="service-block">
+<our-service class="our-service scroll-item" boxClass="serviceOne"
+
+  [serviceText2]="'Проверка и регулировка: ДВС, КПП, топливной системы, электронных систем управления, обработка и анализ иформационных сообщений, удаление кодов неисправностей. Выдача письменных результатов диагностики и рекомендаций по устранению неисправностей.'"
+  [serviceText1]="'Компьютерная диагностика и регулировка'">
+
+</our-service>
+
+<our-service boxClass="serviceTwo"
+
+  [serviceText2]="'Ремонт и обслуживание: дизельных ДВС, топливной системы, трансмиссии электронной и электрической части гидравлической системы, системы смазки и охлаждения, системы кондиционирования'"
+  [serviceText1]="'Ремонт и обслуживание'">
+
+</our-service>
+
+<our-service boxClass="serviceThree"
+
+  [serviceText2]="'Техническое обслуживание техники. Комплексная проверка электронных систем, диагностика ДВС, трансмиссии, топливной и гидравлической системы, замена фильтров, масел и технических жидкостей'"
+  [serviceText1]="'Проведение ТО и проверки техники, систем и агрегатов'">
+
+</our-service>
+
+<our-service boxClass="serviceFour"
+
+  [serviceText2]="'Все виды сварочных работ, в т.ч. на выезде: токарные работы, шлифовальные работы, зубонарезные работы, нанесение гальванического покрытия, изготовление нестандартных изделий на фрезерных станках ЧПУ 3D и 5D.'"
+  [serviceText1]="'Дополнительные услуги'">
+
+</our-service>
+
+<our-service boxClass="serviceFive"
+
+  [serviceText2]="'Мобильная бригада наших специалистов готова приехать на место стоянки/хранения вашей техники или агрегатов, произвести диагностику и ремонтные работы. Если работу нельзя выполнить на месте, наши специалисты самостоятельно проведут демонтаж необходимого узла, агрегата или детали и доставят его на нашу ремонтную базу. После окончания ремонтных работ, мы самостоятельно привезем к вам готовое изделие и осуществим его монтаж. Выезд осуществляется в пределах Северо-кавказского федерального округа и республике Крым.'"
+  [serviceText1]="'Мобильная бригада'">
+
+</our-service>
+  </div>
+</div>
+
+<scheme-of-work class="scroll-item"></scheme-of-work>
+
+<promo class="scroll-item"
+
+  [promoText2]="'Акция распространяется на шины определенных производителей. Шиномонтаж в стоимость не входит. Подробнее уточняйте по телефону.'"
+  [promoTitle2]="''"
+  [promoTitle1]="'Пятая шина в подарок'"
+  [promoText1]="'При единоразовой покупке четырех шин, пятую шину вы получаете в подарок.'">
+
+</promo>
+
+<footer-contacts></footer-contacts>
+
+</div>

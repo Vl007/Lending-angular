@@ -1,0 +1,212 @@
+.service-our {
+  background: #FAF9F9;
+}
+
+.service-block {
+  margin-left: 178px;
+  display: flex;
+  flex-wrap: wrap;
+  //justify-content: space-between;
+}
+
+.service-h2 {
+  font-family: MuseoSansCyrl-100;
+  font-size: 52px;
+  line-height: 50px;
+  color: #151515;
+  margin-left: 178px;
+  padding-top: 80px;
+  padding-bottom: 64px;
+}
+
+.serviceOne {
+  background: url("/assets/img/our-service-1.jpg") no-repeat;
+  height: 505px;
+  padding-right: 18px;
+  margin-bottom: 40px;
+}
+
+.serviceTwo {
+  background: url("/assets/img/our-service-2.jpg") no-repeat;
+  height: 505px;
+  padding-right: 18px;
+  margin-bottom: 40px;
+}
+
+.serviceThree {
+  background: url("/assets/img/our-service-3.jpg") no-repeat;
+  height: 505px;
+  padding-right: 18px;
+  margin-bottom: 40px;
+}
+
+.serviceFour {
+  background: url("/assets/img/our-service-4.jpg") no-repeat;
+  height: 505px;
+  padding-right: 18px;
+  margin-bottom: 40px;
+}
+
+.serviceFive {
+  background: url("/assets/img/our-service-5.jpg") no-repeat;
+  height: 505px;
+  padding-right: 18px;
+  margin-bottom: 40px;
+}
+
+.service-sh {
+  background: rgba(21, 21, 21, 0.6);
+  height: 505px;
+  width: 379px;
+}
+
+.service-p {
+  font-family: MuseoSansCyrl-100;
+  font-size: 38px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  padding-top: 56px;
+  padding-left: 32px;
+  padding-right: 75px;
+  width: 452px;
+  height: 459px;
+  padding-bottom: 20px;
+}
+
+.service-p-b {
+  font-family: MuseoSansCyrl-100;
+  width: 363px;
+  font-size: 38px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  padding-top: 56px;
+  padding-left: 32px;
+  padding-right: 75px;
+}
+
+.service-btn {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  font-family: MuseoSansCyrl-100;
+  font-size: 21px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  //padding-top: 30px;
+  padding-left: 32px;
+  padding-right: 156px;
+}
+
+.serviceActive {
+  font-family: MuseoSansCyrl-300;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  width: 450px;
+  height: 459px;
+}
+
+@media screen and (min-width:320px) and (max-width: 374px) {
+  .service-sh {
+    overflow: hidden;
+  }
+
+  .service-h2 {
+    font-size: 47px;
+  }
+
+  .service-block {
+    margin-left: 10px;
+  }
+
+  .service-sh {
+    width: 300px;
+  }
+
+  .service-p {
+    font-size: 30px;
+    width: 358px;
+  }
+
+  .service-btn {
+    padding-right: 107px;
+  }
+
+  .serviceActive {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:375px) and (max-width: 413px) {
+  .service-sh {
+    overflow: hidden;
+  }
+
+  .serviceActive {
+    font-size: 17px;
+  }
+
+  .service-p {
+    font-size: 35px;
+    width: 400px;
+  }
+
+  .service-sh {
+    width: 342px;
+  }
+
+  .service-h2 {
+    margin-left: 16px;
+  }
+
+  .service-block {
+    margin-left: 16px;
+    flex-direction: column;
+  }
+
+  .service-btn {
+    padding-right: 149px
+  }
+
+  .serviceActive {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:414px) and (max-width: 767px) {
+  .service-sh {
+    overflow: hidden;
+  }
+
+  .service-h2 {
+    margin-left: 16px;
+  }
+
+  .service-block {
+    margin-left: 16px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+  .service-sh {
+    width: 330px;
+  }
+
+  .service-p {
+    font-size: 36px;
+    width: 398px;
+  }
+
+  .service-btn {
+    padding-right: 137px;
+  }
+
+  .serviceActive{
+    font-size: 16px;
+    width: 403px;
+  }
+
+}

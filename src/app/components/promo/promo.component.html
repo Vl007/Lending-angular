@@ -1,0 +1,12 @@
+<div class="promo-background" id="promo">
+  <div class="promo-img-one"></div>
+  <div class="promo-img-two"></div>
+  <div class="promo-block">
+    <h3 class="promo-h3" >{{promoTitle}}</h3>
+    <p class="promo-p" [ngClass]="{promoActive: visibility}">{{promoText}}</p>
+    <button (click) = "showPromo()">{{promoButtonText}}</button>
+  </div>
+  <div class="promo-block-back">
+    <p class="promo-icon">%</p>
+  </div>
+</div>

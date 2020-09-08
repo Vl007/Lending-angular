@@ -1,0 +1,45 @@
+<div class="header-info" id="home">
+
+  <a pageScroll (click)="scrollToHome()" href="#home" class="logo"><img  class="logo__img" src="/assets/img/logo.png">
+  </a>
+
+  <ul class="nav">
+    <li class="nav-item"><a class="nav-link" (click)="scrollToHome()" pageScroll href="#home">Главная</a></li>
+    <li class="nav-item"><a class="nav-link" (click)="scrollToAreaOfWork()" pageScroll href="#areaOfWork">Направления работ</a></li>
+    <li class="nav-item"><a class="nav-link" (click)="scrollToOurService()" pageScroll href="#ourService">Наши услуги</a></li>
+    <li class="nav-item"><a class="nav-link" (click)="scrollToSchemeOfWork()" pageScroll href="#schemeOfWork">Схема работы</a></li>
+    <li class="nav-item"><a class="nav-link" id = "red_desktop" (click)="scrollToPromo()" pageScroll href="#promo">Акции</a></li>
+    <li class="nav-item"><a class="nav-link" (click)="scrollToContacts()" pageScroll href="#contacts">Контакты</a></li>
+  </ul>
+
+  <p class="header-phone">+7 (918) 560-02-71</p>
+
+  <mat-sidenav-container class="example-container" (backdropClick)="close('backdrop')">
+    <mat-sidenav #sidenav (keydown.escape)="close('escape')" disableClose>
+      <div class="header-info">
+        <a pageScroll href="#home" class="logo"><img class="logo__img" src="/assets/img/logo.png" alt="Logo"></a>
+        <button class="btn-close" (click)="close('toggle button')"></button>
+      </div>
+      <ul class="nav-mobile">
+        <li class="nav-item"><a class="nav-link" (click)="close('toggle button')" pageScroll href="#home">Главная</a></li>
+        <li class="nav-item"><a class="nav-link" (click)="close('toggle button')" pageScroll href="#areaOfWork">Направления работ</a></li>
+        <li class="nav-item"><a class="nav-link" (click)="close('toggle button')" pageScroll href="#ourService">Наши услуги</a></li>
+        <li class="nav-item"><a class="nav-link" (click)="close('toggle button')" pageScroll href="#schemeOfWork">Схема работы</a></li>
+        <li class="nav-item"><a class="nav-link" id = "red_mobile" (click)="close('toggle button')" pageScroll href="#promo">Акции</a></li>
+        <li class="nav-item"><a class="nav-link" (click)="close('toggle button')" pageScroll href="#contacts">Контакты</a></li>
+        <p class="nav-mail">info@ac-don.ru</p>
+        <p class="nav-phone">+7 (918) 560-02-71</p>
+        <p class="nav-p">Донец Сергей Николаевич</p>
+        <p><span class="nav-span">Руководитель подразделения</span></p>
+      </ul>
+    </mat-sidenav>
+
+    <mat-sidenav-content>
+      <div class="header-info">
+        <a pageScroll href="#home" class="mobile-logo"><img class="mobile-logo-img" src="/assets/img/logo.png" alt="Logo"></a>
+        <button class="btn-open" (click)="sidenav.open()"></button>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+
+</div>
